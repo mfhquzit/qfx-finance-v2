@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>QFX Finance</title><style>
+body{background:#0a0e1a;color:white;font-family:Arial;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
+.card{background:rgba(255,255,255,0.04);backdrop-filter:blur(20px);border-radius:24px;padding:40px;text-align:center}
+h1{background:linear-gradient(135deg,#00d4ff,#7b61ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+button{background:linear-gradient(135deg,#00d4ff,#7b61ff);border:none;padding:12px 24px;border-radius:12px;color:white;cursor:pointer}
+</style></head>
+<body><div class="card"><h1>QFX Finance</h1><p>Premium Crypto Banking</p><button>Get Started</button><p style="margin-top:20px">API: <span id="status">checking...</span></p></div>
+<script>fetch('/api/health').then(r=>r.json()).then(d=>document.getElementById('status').innerText=d.status).catch(()=>document.getElementById('status').innerText='unreachable')</script></body></html>

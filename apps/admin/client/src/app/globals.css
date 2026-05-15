@@ -1,0 +1,1 @@
+:root{--bg:#0a0e1a;--accent:#00d4ff}body{background:var(--bg);color:white;margin:0}.glass-card{background:rgba(255,255,255,0.04);backdrop-filter:blur(20px);border-radius:24px;padding:24px}.btn-primary{background:linear-gradient(135deg,#00d4ff,#7b61ff);border:none;padding:12px 24px;border-radius:12px;color:white;cursor:pointer}

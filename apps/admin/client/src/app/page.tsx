@@ -1,0 +1,1 @@
+export default function Home() { return <div className="glass-card" style={{margin:'2rem'}}><h1>QFX Finance</h1><p>Welcome to the future of wealth management.</p><button className="btn-primary">Get Started</button></div>; }
